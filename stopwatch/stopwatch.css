@@ -1,0 +1,29 @@
+*{
+    margin: 0%;
+    padding: 0%;
+}
+
+.main{
+   height: 100vh;
+   background-color: black;
+   display: flex;
+   align-items: center;
+   justify-content: center;
+   flex-direction: column;
+}
+
+.clock{
+    color: white;
+    font-size: 4rem;
+   padding: 20px;
+}
+
+button{
+    margin: 30px ;
+    padding: 1.5rem;
+    border: none;
+    width: 150px;
+    box-shadow:0 0 10px rgba(0,0,0,0.3);
+    background-color: white;
+    border-radius: 50px;
+}
